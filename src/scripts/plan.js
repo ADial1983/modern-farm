@@ -1,4 +1,4 @@
-const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
+const types = ["soybean", "corn", "asparagus", "wheat", "potato", "sunflower"]
 
 export const createPlan = () => {
     const plan = []

@@ -4,5 +4,5 @@ export const createWheat = () => {
         height: 230,
         output: 6
     }
-    return asparagus
+    return wheat
 }
