@@ -14,6 +14,7 @@ import { createWheat } from "./seeds/wheat.js"
 import { addPlant } from "./field.js"
 import { usePlant } from "./field.js"
 import { plantSeeds } from "./tractor.js"
+import { harvestPlants } from "./harvester.js"
 
 //let asparagusSeeds = createAsparagus()
 // let cornSeeds = createCorn()
@@ -29,4 +30,6 @@ const yearlyPlan = createPlan()
 plantSeeds(yearlyPlan)
 //console.log(plantedSeeds)
 let plantedSeedsArray = usePlant()
-console.log(plantedSeedsArray)
+//console.log(plantedSeedsArray)
+const harvestedPlantsArray = harvestPlants(plantedSeedsArray)
+console.log(harvestedPlantsArray)
